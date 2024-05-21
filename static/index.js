@@ -38,18 +38,18 @@ function detectEmotion() {
 
 function getEmoji(emotion) {
     switch (emotion) {
-        case "sad":
+        case "sadness":
             return "😢";
         case "joy":
             return "😄";
-        case "happy":
-            return "😊";
         case "fear":
             return "😨";
         case "anger":
             return "😡";
         case "surprised":
             return "😲";
+        case "love":
+            return "💖";
         default:
             return "❓";
     }
